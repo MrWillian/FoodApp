@@ -27,8 +27,7 @@ export default class Home extends React.Component {
         </View>
         <View style={styles.tabbar}>
           <ScrollableTabView
-            style={{ marginTop: 20 }}
-            initialPage={1}
+            initialPage={0}
             tabBarActiveTextColor="green"
             renderTabBar={() => 
               <DefaultTabBar
@@ -58,11 +57,12 @@ var styles = StyleSheet.create({
   },
   header: {
     marginTop: 20,
+    position: 'absolute'
   },
   tabbar: {
     flex: 1,
     marginTop: width*0.3,
-    paddingHorizontal: 38,
+    paddingHorizontal: 30,
   },
   imageBackground: {
     width: width*0.4,
