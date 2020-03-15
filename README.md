@@ -1,6 +1,6 @@
 # FoodApp
 
-[Imgur](https://i.imgur.com/ToZzbFh.jpg)
+![Imgur](https://i.imgur.com/ToZzbFh.jpg)
 
 
 
